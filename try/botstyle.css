@@ -1,0 +1,83 @@
+
+
+/* Join Us section */
+
+#join-us-head{
+    color: black;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.join-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.join-us-blue{
+    height: 20px;
+    width: 15px;
+    background-color: aquamarine;
+}
+.join-us-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.join-us .join-us-content .join-us-head{
+    background: #dddddd;
+    text-align: center;
+    margin: 10px 0;
+    /* position: relative; */
+    height: 30px;
+    width: 100px;
+}
+.join-us .join-us-content .join-us-head a{
+    color: black;
+    font-size: large;
+    text-decoration: none;
+    /* padding: 15px 30px; */
+    text-align: center;
+    font-weight: 600;
+}
+.join-us-content .join-us-head a::visited{
+    color: black;
+}
+.join-us-content .join-us-info{
+    font-size: small;
+    margin: 0px;
+}
+/* Support Us */
+.support-us{
+    font-size: large;
+    font-weight: 800;
+    margin: 15px 0;
+}
+.donation{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.donation-details p{
+    font-size: small;
+    margin-bottom: 20px;
+}
+.donation-details .subscribe a{
+    color: white;
+    text-align: center; 
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(140, 142, 143);
+    border-radius: 8px; 
+}
+.donation-details .subscribe input{
+    width: 60%;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-right: 5px;
+}
+.subscribe input[type="email"]::placeholder{
+    padding-left:10px;
+}
